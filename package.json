@@ -4,7 +4,7 @@
   "description": "api for book catalog app",
   "main": "./src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\"",
     "start": "nodemon --exec ts-node --transpile-only --files ./src/index.ts",
     "start:production": "node -r ./tsconfig-paths.js build/index.js",
     "build": "cd src && tsc"
